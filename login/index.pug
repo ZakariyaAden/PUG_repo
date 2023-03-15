@@ -1,0 +1,17 @@
+doctype html
+html 
+    head 
+        script(src="index.js")
+        link(rel="stylesheet" href="style.css")
+        title login
+    body 
+        .main_div
+            h1 enter your login info
+            br
+            .usernameContainer
+                label(for="username") Your username:
+                input.textInput(type="text" id="username")
+                .buttonDiv
+                    button.button(type="submit" id="usernameSubmit") ✓
+                    button.button(type="submit" id="usernameRandomize") ?
+                    button.button(type="submit" id="usernameClear" onclick="clear()") x

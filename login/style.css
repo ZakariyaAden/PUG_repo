@@ -1,0 +1,32 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+.main_div{
+    background-color: grey;
+    height: 550px;
+    width: 450px;
+    place-self: center;
+    place-content: center;
+    border-radius: 25px;
+    display: grid;
+}
+.usernameContainer{
+    display: inline;
+    white-space: none;
+}
+.textInput{
+    margin: 0px;
+    width: 200px;
+    height: 20px;
+    padding-right: 50px;
+}
+.button{
+    border-radius: 20%;
+    height: 20px;
+    width: 50px;
+    margin-left: 50px;
+    padding: 0px;
+}

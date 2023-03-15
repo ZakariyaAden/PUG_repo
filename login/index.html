@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+  </head>
+  <body> 
+    <div class="main_div">
+      <h1>enter your login info</h1><br>
+      <div class="usernameContainer">
+        <label for="username">Your username:</label>
+        <input class="textInput" type="text" id="username">
+        <div class="buttonDiv">
+          <button class="button" type="submit" id="usernameSubmit">✓</button>
+          <button class="button" type="submit" id="usernameRandomize">?</button>
+          <button class="button" type="submit" id="usernameClear" onclick="clear(this.id)">x</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
